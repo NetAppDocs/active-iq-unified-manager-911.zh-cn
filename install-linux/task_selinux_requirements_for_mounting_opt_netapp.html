@@ -11457,7 +11457,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-11 15:55:24 +0000">11/11/2022</time>
+    <time datetime="2022-12-14 18:44:35 +0000">12/14/2022</time>
     
   
 
@@ -11478,7 +11478,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="挂载-optnetappdata-时配置-selinux-上下文">挂载 /opt/netapp/data 时配置 SELinux 上下文</h2>
+<h2 id="配置selinux环境条件-optnetappdata-已挂载">配置SELinux环境条件 <code>/opt/netapp/data</code> 已挂载</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>如果已挂载 <code>/opt/netapp/data</code> 在系统中、SELinux设置为 <code>Enforcing</code>、确保的SELinux上下文类型为 <code>/opt/netapp/data</code> 设置为 <code>mysqld_db_t</code>、这是数据库文件位置的默认上下文元素。</p>
@@ -11557,7 +11557,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="挂载-optnetapp-和-optnetappdata-时配置-selinux-环境也会单独挂载">挂载 /opt/netapp 和 /opt/netapp/data/ 时配置 SELinux 环境也会单独挂载</h2>
+<h2 id="配置selinux环境条件-optnetapp-已挂载和-optnetappdata-也单独挂载">配置SELinux环境条件 <code>/opt/netapp</code> 已挂载、和 <code>/opt/netapp/data/</code> 也单独挂载</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>在这种情况下、首先应设置的上下文 <code>/opt/netapp/data/</code> 如上一节所述。设置正确的上下文后 <code>/opt/netapp/data/`下、请确保父目录 `/opt/netapp</code> SELinux上下文未设置为 <code>file_t</code>。</p>
@@ -11640,7 +11640,7 @@ restorecon -v /opt/netapp</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="挂载-optnetapp-且-optnetappdata-未单独挂载时配置-selinux-环境">挂载 /opt/netapp 且 /opt/netapp/data/ 未单独挂载时配置 SELinux 环境</h2>
+<h2 id="配置selinux环境条件-optnetapp-已挂载和-optnetappdata-不会单独挂载">配置SELinux环境条件 <code>/opt/netapp</code> 已挂载、和 <code>/opt/netapp/data/</code> 不会单独挂载</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>如果已挂载  <code>/opt/netapp</code> 在系统中、SELinux设置为 <code>Enforcing</code>、确保的SELinux上下文类型为 <code>/opt/netapp</code> 设置为 <code>mysqld_db_t</code>、这是数据库文件位置的默认上下文元素。</p>
