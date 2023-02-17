@@ -17,12 +17,9 @@ Active IQ Unified Manager REST API可通过任何可以使用基本HTTP身份验
 
 * * 请求 *
 +
-获取
-
-
-
 [listing]
 ----
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 响应 *
@@ -103,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-要通过 Web 浏览器对 HTTP 请求进行问题描述发布，修补和删除，您必须使用浏览器插件。您也可以使用 curl 和 Perl 等脚本平台访问 REST API 。
+要从Web浏览器对HTTP请求进行问题描述 处理、您必须使用REST API浏览器插件。您也可以使用 curl 和 Perl 等脚本平台访问 REST API 。
 
 
 
