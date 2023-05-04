@@ -40,3 +40,9 @@ summary: 更改配置后，您可能需要重新启动 Unified Manager 。
 `systemctl start ocieau`
 
 
+
+[NOTE]
+====
+`mysqld` 是启动和停止MySQL服务器所需的守护进程程序。
+
+====
