@@ -12,7 +12,6 @@
   <block id="c78b2fb18f2fe61f95fe42e52ba53764" category="list-text">升级9.9 -&gt; 9.11。</block>
   <block id="735de3cfc0c0985a1a724be6fb3d04d4" category="inline-link">知识库(KB)文章</block>
   <block id="7ff27f75b12e833d98540444694dad8f" category="paragraph">有关升级路径列表的详细信息、请参见此内容<block ref="873d5f2f4cecdaf6f22eb65b543f2b7f" category="inline-link-rx"></block>。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">Active IQ Unified Manager ， AIQUM 文档， UM 文档</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager 文档</block>
   <block id="369d42629beea2ad70c23667467de925" category="summary">您可以创建角色并分配功能，以控制用户对选定集群对象的访问。您可以确定具有访问集群中选定对象所需功能的用户。仅向这些用户提供管理集群对象的访问权限。</block>
   <block id="7307896fb54bf8a51c3bcec77ec0b679" category="doc">管理用户访问</block>
@@ -11567,7 +11566,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多资源</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 视频</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 博客</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">执行配置和管理任务</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">监控和管理集群运行状况</block>
   <block id="a56ba57e5caff729c6d136191605d68c" category="sidebar">评估的安全标准是什么</block>
@@ -11649,4 +11647,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="37c7899d698773f8f7aa6773dd5364e8" category="sidebar">通过Active IQ Unified Manager (Unified Manager、以前称为OnCommand Unified Manager)、您可以从一个界面监控和管理ONTAP 存储系统的运行状况和性能。本文档库包含版本9.11的信息。</block>
+  <block id="65636d112d8b82b2ab94299262a2cc8c" category="sidebar">Active IQ Unified Manager 9.11文档。</block>
 </blocks>
