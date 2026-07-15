@@ -29,6 +29,7 @@ summary: '" 数据保护 " 页面提供了数据中心中所有受保护卷的�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == 查看受Snapshot副本保护的卷的保护状态
 
 * Snapshot副本概述*：Snapshot副本保护的卷概述、例如：
@@ -47,6 +48,7 @@ summary: '" 数据保护 " 页面提供了数据中心中所有受保护卷的�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === 有关Snapshot副本的注意事项
 
 * 要计算受Snapshot副本保护的卷、应同时考虑源卷和目标卷。
@@ -57,6 +59,7 @@ summary: '" 数据保护 " 页面提供了数据中心中所有受保护卷的�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == 查看SnapMirror关系的保护状态
 
 * SnapMirror 概述 * ： SnapMirror 策略保护的卷概述，例如：
@@ -76,6 +79,7 @@ summary: '" 数据保护 " 页面提供了数据中心中所有受保护卷的�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === 有关SnapMirror关系的注意事项
 
 * 在计算SnapMirror关系时、系统会计算已启用读取和写入的源卷。不考虑目标卷和根卷。

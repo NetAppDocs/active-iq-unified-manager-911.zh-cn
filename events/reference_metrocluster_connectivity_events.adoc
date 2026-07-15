@@ -15,6 +15,7 @@ summary: 连接事件可为您提供有关集群组件之间以及 MetroCluster 
 
 
 
+[[impact-area-availability]]
 == 影响区域：可用性
 
 |===

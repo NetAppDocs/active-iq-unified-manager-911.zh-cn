@@ -10,6 +10,7 @@ summary: 基于 VMware vSphere 平台的 Unified Manager 快速入门指南。
 
 
 
+[[system-requirements]]
 == 系统要求
 
 * 操作系统： VMware ESXi 6.5 ， 6.7 和 7.0
@@ -22,10 +23,12 @@ summary: 基于 VMware vSphere 平台的 Unified Manager 快速入门指南。
 
 
 
+[[installing-active-iq-unified-manager]]
 == 安装 Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下载安装程序：
 
 . 下载 `ActiveIQUnifiedManager-<version>.ova` 安装包。
@@ -34,6 +37,7 @@ summary: 基于 VMware vSphere 平台的 Unified Manager 快速入门指南。
 
 
 
+[[install-unified-manager]]
 === 安装 Unified Manager
 
 . 在 vSphere Client 中，单击 * 文件 > 部署 OVF 模板 * 。
